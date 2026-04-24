@@ -93,7 +93,7 @@ The SISTRIX MCP is available via the official [SISTRIX MCP connector](https://ww
 ```bash
 # Clone into your project's skills directory
 mkdir -p .claude/skills
-git clone https://github.com/alexgum1/gsc2peakai.git .claude/skills/gsc-peec-ai-visibility
+git clone https://github.com/alexgum1/gsc2peecai.git .claude/skills/gsc-peec-ai-visibility
 ```
 
 Claude Code picks up skills from `.claude/skills/` automatically. Restart or reload the session after cloning.
@@ -103,7 +103,7 @@ Claude Code picks up skills from `.claude/skills/` automatically. Restart or rel
 ```bash
 # macOS
 mkdir -p ~/Library/Application\ Support/Claude/skills
-git clone https://github.com/alexgum1/gsc2peakai.git \
+git clone https://github.com/alexgum1/gsc2peecai.git \
   ~/Library/Application\ Support/Claude/skills/gsc-peec-ai-visibility
 ```
 
@@ -130,7 +130,7 @@ Once installed and connectors are active, trigger with natural language:
 ## File structure
 
 ```
-gsc2peakai/
+gsc2peecai/
 ├── SKILL.md                          # Main skill instructions
 ├── references/
 │   ├── filter-criteria.md            # GSC query filter logic (W-words, thresholds)
