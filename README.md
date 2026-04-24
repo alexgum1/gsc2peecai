@@ -20,10 +20,9 @@ This skill requires **three MCP connectors** to be active in your Claude environ
 
 Provides query-level impression and click data for your domain.
 
-Any GSC MCP server works. Popular options:
+Any GSC MCP server works. A popular open-source option:
 
 - **[Google Search Console MCP](https://github.com/adenot/mcp-google-search-console)** (open source, OAuth)
-- **Visibly AI MCP** — includes GSC passthrough alongside backlinks and keyword data ([docs](https://www.antonioblago.com/de/entwickler/mcp))
 
 Add to your Claude Code `settings.json`:
 
